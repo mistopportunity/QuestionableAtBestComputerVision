@@ -13,5 +13,45 @@ namespace QuestionableAtBestComputerVision {
 		public Form1() {
 			InitializeComponent();
 		}
+
+		private void SelectButton_Click(object sender,EventArgs e) {
+
+		}
+
+		private void ToggleTrackingButton_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton1_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton2_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton3_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton4_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton5_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton6_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton7_Click(object sender,EventArgs e) {
+
+		}
+
+		private void LayerButton8_Click(object sender,EventArgs e) {
+
+		}
 	}
 }
