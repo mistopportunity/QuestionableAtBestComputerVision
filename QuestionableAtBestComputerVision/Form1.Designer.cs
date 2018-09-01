@@ -63,6 +63,7 @@
 			// 
 			// LayerButton1
 			// 
+			this.LayerButton1.Enabled = false;
 			this.LayerButton1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton1.Location = new System.Drawing.Point(44, 217);
 			this.LayerButton1.Name = "LayerButton1";
@@ -75,6 +76,7 @@
 			// 
 			// LayerButton2
 			// 
+			this.LayerButton2.Enabled = false;
 			this.LayerButton2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton2.Location = new System.Drawing.Point(109, 217);
 			this.LayerButton2.Name = "LayerButton2";
@@ -87,6 +89,7 @@
 			// 
 			// LayerButton3
 			// 
+			this.LayerButton3.Enabled = false;
 			this.LayerButton3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton3.Location = new System.Drawing.Point(174, 217);
 			this.LayerButton3.Name = "LayerButton3";
@@ -99,6 +102,7 @@
 			// 
 			// LayerButton4
 			// 
+			this.LayerButton4.Enabled = false;
 			this.LayerButton4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton4.Location = new System.Drawing.Point(239, 217);
 			this.LayerButton4.Name = "LayerButton4";
@@ -111,6 +115,7 @@
 			// 
 			// LayerButton5
 			// 
+			this.LayerButton5.Enabled = false;
 			this.LayerButton5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton5.Location = new System.Drawing.Point(304, 217);
 			this.LayerButton5.Name = "LayerButton5";
@@ -123,6 +128,7 @@
 			// 
 			// LayerButton6
 			// 
+			this.LayerButton6.Enabled = false;
 			this.LayerButton6.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton6.Location = new System.Drawing.Point(369, 217);
 			this.LayerButton6.Name = "LayerButton6";
@@ -135,6 +141,7 @@
 			// 
 			// LayerButton7
 			// 
+			this.LayerButton7.Enabled = false;
 			this.LayerButton7.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton7.Location = new System.Drawing.Point(434, 217);
 			this.LayerButton7.Name = "LayerButton7";
@@ -147,6 +154,7 @@
 			// 
 			// LayerButton8
 			// 
+			this.LayerButton8.Enabled = false;
 			this.LayerButton8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 			this.LayerButton8.Location = new System.Drawing.Point(499, 217);
 			this.LayerButton8.Name = "LayerButton8";

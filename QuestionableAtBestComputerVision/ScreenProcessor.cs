@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 using System.Drawing;
 
 namespace QuestionableAtBestComputerVision {
-	internal sealed class ObjectDetector {
+	internal sealed class ScreenProcessor {
 
-		internal Rectangle ScreenRegion {
+		internal Rectangle Region {
 			private get; set;
 		}
 
@@ -20,11 +20,8 @@ namespace QuestionableAtBestComputerVision {
 				];
 			}
 		}
-
 		private ILayerProcessor<object>[] processors;
 		private LayerProcessResult<object>[] results;
-
-
 
 		internal Bitmap GetPresentationBitmap(int processorIndex) {
 
@@ -68,14 +65,14 @@ namespace QuestionableAtBestComputerVision {
 		}
 		private Color[,] CaptureScreen() {
 			using(Bitmap bitmap = new Bitmap(
-				ScreenRegion.Width,
-				ScreenRegion.Height
+				Region.Width,
+				Region.Height
 			)) {
 				using(Graphics graphics = Graphics.FromImage(bitmap)) {
 					graphics.CopyFromScreen(
-						ScreenRegion.Location,
+						Region.Location,
 						Point.Empty,
-						ScreenRegion.Size
+						Region.Size
 					);
 				}
 				return ConvertBitmap(bitmap);
